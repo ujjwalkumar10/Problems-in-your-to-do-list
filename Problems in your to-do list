@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int T,N,D[N],i;
+	cin>>T;
+	cin>>N;
+	int count=0;
+	for(int i=0;i<N;i++){
+	    
+	    cin>>D[i];
+	
+	    
+	    if(D[i]>=1000)  
+	      cout<< D[i]<<endl;
+	      count++;}
+	      cout<<count;
+	    
+}
+
